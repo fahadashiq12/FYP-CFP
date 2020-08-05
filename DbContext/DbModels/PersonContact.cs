@@ -15,9 +15,7 @@ namespace CodeFirstApproachPrac.DbContext.DbModels
 
         public string EmergencyContact { get; set; }
 
-        public string EmergencyAdress { get; set; }
 
-        public string EmergencyName { get; set; }
 
     }
 }

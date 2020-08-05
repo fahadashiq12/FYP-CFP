@@ -15,10 +15,13 @@ namespace CodeFirstApproachPrac.DbContext.DbModels
         public string LastName { get; set; }
         public byte[] Photo { get; set; }
         public int DateOfBirth { get; set; }
+        public string CNIC { get; set; }
         public long? ApplicationUserId { get; set; }
         [ForeignKey("ApplicationUserId")] public virtual ApplicationUser ApplicationUser { get; set; }
-
         public long? AddressId { get; set; }
         [ForeignKey("AddressId")] public virtual Address Address { get; set; }
+        public long? PersonId { get; set; }
+        [ForeignKey("PersonContactId")] public virtual PersonContact PersonContact { get; set; }
+
     }
 }

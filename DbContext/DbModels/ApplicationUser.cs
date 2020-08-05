@@ -21,6 +21,6 @@ namespace CodeFirstApproachPrac.DbContext.DbModels
         public string Password { get; set; }
         public string Role { get; set; }
         public byte[] ProfilePic { get; set; }
-        public long PersonId { get; set; }
+        [ForeignKey("PersonId")] public virtual Person Person { get; set; }
     }
 }

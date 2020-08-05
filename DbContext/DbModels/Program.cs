@@ -10,6 +10,9 @@ namespace CodeFirstApproachPrac.DbContext.DbModels
     {
         public string ProgramName { get; set; }
 
-    
+        public string ProgramCategory { get; set; }
+
+        public string ProgramDuration { get; set; }
+        
     }
 }

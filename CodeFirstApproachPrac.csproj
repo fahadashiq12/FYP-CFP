@@ -135,7 +135,9 @@
     <Compile Include="DbContext\DbModels\ApplicationRole.cs" />
     <Compile Include="DbContext\DbModels\ApplicationUser.cs" />
     <Compile Include="DbContext\DbModels\CBTEntranceResult.cs" />
-    <Compile Include="DbContext\DbModels\CBTExamSchedule.cs" />
+    <Compile Include="DbContext\DbModels\EntranceTestVenue.cs" />
+    <Compile Include="DbContext\DbModels\GenderType.cs" />
+    <Compile Include="DbContext\DbModels\TestSchedule.cs" />
     <Compile Include="DbContext\DbModels\ChallanForm.cs" />
     <Compile Include="DbContext\DbModels\EducationDetails.cs" />
     <Compile Include="DbContext\DbModels\MeritList.cs" />
@@ -144,6 +146,9 @@
     <Compile Include="DbContext\DbModels\Program.cs" />
     <Compile Include="DbContext\DbModels\Section.cs" />
     <Compile Include="DbContext\DbModels\Staff.cs" />
+    <Compile Include="DbContext\DbModels\StudentAcademic.cs" />
+    <Compile Include="DbContext\DbModels\StudentApplication.cs" />
+    <Compile Include="DbContext\DbModels\StudentChallan.cs" />
     <Compile Include="DbContext\DbModels\StudentFeeDetail.cs" />
     <Compile Include="DbContext\DbModels\SystemSetting.cs" />
     <Compile Include="DbContext\SchoolDbConfiguration.cs" />
@@ -151,7 +156,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="DbContext\SchoolDbContext.cs" />
-    <Compile Include="DbContext\DbModels\Grade.cs" />
+    <Compile Include="DbContext\DbModels\TestGrade.cs" />
     <Compile Include="DbContext\DbModels\Student.cs" />
     <Compile Include="Migrations\202008041204303_InitialCreation.cs" />
     <Compile Include="Migrations\202008041204303_InitialCreation.designer.cs">

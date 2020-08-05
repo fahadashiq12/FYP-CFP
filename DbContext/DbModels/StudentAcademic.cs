@@ -5,9 +5,8 @@ using System.Web;
 
 namespace CodeFirstApproachPrac.DbContext.DbModels
 {
-    public class ApplicationPermission
+    public class StudentAcademic
     {
-        public string PermissionName { get; set; }
 
     }
 }

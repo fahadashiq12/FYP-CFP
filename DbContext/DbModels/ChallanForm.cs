@@ -9,13 +9,12 @@ namespace CodeFirstApproachPrac.DbContext.DbModels
 {
     public class ChallanForm : BaseDbModels.BaseDbClass
     {
-        public string Name { get; set; }
-        public string FatherName { get; set; }
-        public int CNIC { get; set; }
+        public string Refnumber { get; set; }
+        public DateTime CreationDate { get; set; }
+        public int Amount { get; set; }
         public int RegistNumber { get; set; }
         public string Dist { get; set; }
         public string Challanfor { get; set; }
-        public string Branch { get; set; }
-        public int SecurityCode { get; set; }
+     
     }
 }

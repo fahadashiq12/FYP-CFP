@@ -13,6 +13,11 @@ namespace CodeFirstApproachPrac.DbContext
         public DbSet<DbModels.Student> Students { get; set; }
         public DbSet<DbModels.Staff> Staffs { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<DbModels.StudentApplication> StudentApplications { get; set; }
+        public DbSet<DbModels.EducationDetails> EducationDetailses { get; set; }
+        public DbSet<DbModels.Address> Addresses { get; set; }
+        public DbSet<DbModels.ChallanForm> ChallanForms { get; set; }
+        public DbSet<DbModels.TestGrade> TestGrades { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

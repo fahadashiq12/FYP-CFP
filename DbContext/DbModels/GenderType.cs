@@ -5,9 +5,10 @@ using System.Web;
 
 namespace CodeFirstApproachPrac.DbContext.DbModels
 {
-    public class ApplicationPermission
+    public class GenderType : BaseDbModels.BaseDbClass
     {
-        public string PermissionName { get; set; }
+        public string Type { get; set; }
+
 
     }
 }

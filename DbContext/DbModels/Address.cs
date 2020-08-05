@@ -6,6 +6,7 @@ using System.Web;
 
 namespace CodeFirstApproachPrac.DbContext.DbModels
 {
+
     public class Address : BaseDbModels.BaseDbClass
     {
         [Column("Address")] public string Address1 { get; set; }
