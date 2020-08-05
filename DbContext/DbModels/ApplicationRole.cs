@@ -12,7 +12,9 @@ namespace CodeFirstApproachPrac.DbContext.DbModels
         
         public string RoleDescription { get; set; }
 
-       // [ForeignKey("ApplicationUserId" )] public virtual ApplicationUser ApplicationUser { get; set; }
+        public string RoleValue { get; set; }
+
+       [ForeignKey("ApplicationUserId" )] public virtual ApplicationUser ApplicationUser { get; set; }
 
        // [ForeignKey("ApplicationRoleId")] public virtual ApplicationRole ApplicationRoles { get; set; }
     }

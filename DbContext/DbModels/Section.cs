@@ -9,7 +9,7 @@ namespace CodeFirstApproachPrac.DbContext.DbModels
     {
         public string SectionName { get; set; }
 
-        public string TotalSectionAllocation { get; set; }
+        public string SectionAllotted { get; set; }
 
         public int TotalStrength { get; set; }
 

@@ -9,6 +9,5 @@ namespace CodeFirstApproachPrac.DbContext.DbModels
     {
         public string Type { get; set; }
 
-
     }
 }

@@ -16,7 +16,7 @@ namespace CodeFirstApproachPrac.DbContext
         public DbSet<DbModels.StudentApplication> StudentApplications { get; set; }
         public DbSet<DbModels.EducationDetails> EducationDetailses { get; set; }
         public DbSet<DbModels.Address> Addresses { get; set; }
-        public DbSet<DbModels.ChallanForm> ChallanForms { get; set; }
+        public DbSet<DbModels.StudentChallan> ChallanForms { get; set; }
         public DbSet<DbModels.TestGrade> TestGrades { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

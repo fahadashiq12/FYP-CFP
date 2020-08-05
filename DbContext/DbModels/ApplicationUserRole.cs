@@ -5,7 +5,7 @@ using System.Web;
 
 namespace CodeFirstApproachPrac.DbContext.DbModels
 {
-    public class StudentApplication : BaseDbModels.BaseDbClass
+    public class ApplicationUserRole 
     {
 
     }

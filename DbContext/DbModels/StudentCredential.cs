@@ -7,7 +7,7 @@ using System.Web;
 
 namespace CodeFirstApproachPrac.DbContext.DbModels
 {
-    public class AcademicCredential : BaseDbModels.BaseDbClass
+    public class StudentCredential : BaseDbModels.BaseDbClass
     {
         public string InstituteName { get; set; }
         public DateTime Year { get; set; }
